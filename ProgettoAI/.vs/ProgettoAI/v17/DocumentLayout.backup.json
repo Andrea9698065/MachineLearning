@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4D6E4D-6595-49BD-8AAF-0211076C93E6}|ProgettoAI\\ProgettoAI.csproj|c:\\users\\07mar\\source\\repos\\progettoai\\progettoai\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{5A4D6E4D-6595-49BD-8AAF-0211076C93E6}|ProgettoAI\\ProgettoAI.csproj|solutionrelative:progettoai\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576D82A3-379F-4216-D570-7044139F3B30}|MLModel1_WebApi1\\MLModel1_WebApi1.csproj|c:\\users\\07mar\\source\\repos\\progettoai\\mlmodel1_webapi1\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{576D82A3-379F-4216-D570-7044139F3B30}|MLModel1_WebApi1\\MLModel1_WebApi1.csproj|solutionrelative:mlmodel1_webapi1\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D8A5E7-F6C4-F22C-3862-9D520081ADA5}|MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj|c:\\users\\07mar\\source\\repos\\progettoai\\mlmodel1_consoleapp1\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{03D8A5E7-F6C4-F22C-3862-9D520081ADA5}|MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj|solutionrelative:mlmodel1_consoleapp1\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A4D6E4D-6595-49BD-8AAF-0211076C93E6}|ProgettoAI\\ProgettoAI.csproj|C:\\Users\\07mar\\source\\repos\\ProgettoAI\\progettoai\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A4D6E4D-6595-49BD-8AAF-0211076C93E6}|ProgettoAI\\ProgettoAI.csproj|solutionrelative:progettoai\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MLModel1.mbconfig",
+              "DocumentMoniker": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\MLModel1_WebApi1\\MLModel1.mbconfig",
+              "RelativeDocumentMoniker": "MLModel1_WebApi1\\MLModel1.mbconfig",
+              "ToolTip": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\MLModel1_WebApi1\\MLModel1.mbconfig",
+              "RelativeToolTip": "MLModel1_WebApi1\\MLModel1.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-05-22T06:11:52.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MLModel1.mbconfig",
+              "DocumentMoniker": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "RelativeDocumentMoniker": "MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "ToolTip": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "RelativeToolTip": "MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-05-22T06:11:48.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MLModel1.mbconfig",
+              "DocumentMoniker": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\ProgettoAI\\MLModel1.mbconfig",
+              "RelativeDocumentMoniker": "ProgettoAI\\MLModel1.mbconfig",
+              "ToolTip": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\ProgettoAI\\MLModel1.mbconfig",
+              "RelativeToolTip": "ProgettoAI\\MLModel1.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2025-05-20T09:45:06.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\ProgettoAI\\Form1.cs",
+              "RelativeDocumentMoniker": "ProgettoAI\\Form1.cs",
+              "ToolTip": "C:\\Users\\07mar\\source\\repos\\ProgettoAI\\ProgettoAI\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "ProgettoAI\\Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:42:44.683Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
