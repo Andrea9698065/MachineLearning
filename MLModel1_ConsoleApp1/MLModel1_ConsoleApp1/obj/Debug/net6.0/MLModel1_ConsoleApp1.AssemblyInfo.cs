@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ProgettoML")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MLModel1_ConsoleApp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5abec0f9530b8ea856a3ea5dd7d1abb5751e93c")]
-[assembly: System.Reflection.AssemblyProductAttribute("ProgettoML")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ProgettoML")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("MLModel1_ConsoleApp1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MLModel1_ConsoleApp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
 

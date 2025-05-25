@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
+    "net6.0": {
       "LightGBM/2.3.1": {
         "type": "package",
         "build": {
@@ -199,7 +199,7 @@
           }
         },
         "build": {
-          "build/netstandard2.0/Microsoft.ML.FastTree.props": {}
+          "build/netstandard2.0/_._": {}
         },
         "runtimeTargets": {
           "runtimes/linux-x64/native/libFastTreeNative.so": {
@@ -1255,9 +1255,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
+    "net6.0": [
       "Microsoft.ML >= 2.0.0",
-      "Microsoft.ML.FastTree >= 2.0.0",
       "Microsoft.ML.LightGbm >= 2.0.0"
     ]
   },
@@ -1267,26 +1266,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML\\ProgettoML\\ProgettoML.csproj",
-      "projectName": "ProgettoML",
-      "projectPath": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML\\ProgettoML\\ProgettoML.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+      "projectName": "MLModel1_ConsoleApp1",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML\\ProgettoML\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -1302,14 +1301,10 @@
       }
     },
     "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.ML": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.ML.FastTree": {
             "target": "Package",
             "version": "[2.0.0, )"
           },
@@ -1332,12 +1327,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
