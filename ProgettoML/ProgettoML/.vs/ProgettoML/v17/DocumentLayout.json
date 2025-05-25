@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\ProgettoML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\source\\repos\\progettoml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04212E50-DD41-4A15-B0E7-3210558BE8B6}|..\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj|c:\\users\\andre\\source\\repos\\mlmodel1_consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04212E50-DD41-4A15-B0E7-3210558BE8B6}|..\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj|c:\\users\\andre\\source\\repos\\mlmodel1_consoleapp1\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\source\\repos\\progettoml\\mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
+      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:mlmodel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\source\\repos\\progettoml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\source\\repos\\progettoml\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\source\\repos\\progettoml\\filtronull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:filtronull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FiltroNull.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\ProgettoML\\FiltroNull.cs",
+              "RelativeDocumentMoniker": "FiltroNull.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\ProgettoML\\FiltroNull.cs",
+              "RelativeToolTip": "FiltroNull.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:07:43.677Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\ProgettoML\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\ProgettoML\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:36:53.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\ProgettoML\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\ProgettoML\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:22:46.46Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MLModel1_ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "..\\MLModel1_ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:02:57.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MLModel1.mbconfig",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "RelativeDocumentMoniker": "..\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "RelativeToolTip": "..\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-05-25T14:34:30.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\ProgettoML\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\ProgettoML\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAKUBAAAAAAAAAAAkwEYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:11:05.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MLModel1.mbconfig",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\ProgettoML\\MLModel1.mbconfig",
+              "RelativeDocumentMoniker": "MLModel1.mbconfig",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\ProgettoML\\MLModel1.mbconfig",
+              "RelativeToolTip": "MLModel1.mbconfig",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-05-25T13:07:28.486Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
