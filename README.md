@@ -1,6 +1,9 @@
-@"🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING
+🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING
+
+
 📌 OBIETTIVO
 Creare un modello di Machine Learning supervisionato che preveda il prezzo degli immobili da input utente.
+[CONSEGNA]
 Sviluppare un modello di supervised learning in Python (usando scikit-learn, pandas o simili) oppure C# machine learning platform,
 capace di apprendere da un dataset reale e restituire previsioni credibili su nuovi input.
 Scegli un dataset da una fonte affidabile (Kaggle, UCI, OpenML) e descrivilo brevemente.
@@ -10,6 +13,7 @@ Valuta le prestazioni del modello con metriche appropriate.
 Testa il modello con almeno tre input inventati ma realistici.
 Concludi con una breve riflessione su efficacia e limiti del lavoro.
 Il link alla repository GIT con dataset e codice del machine learning, inoltre consegnare una presentazione che spieghi i procedimenti e l'algoritmo di machine learning scelto
+[CONSEGNA]
                         
 📊 DATASET
 • Fonte: Kaggle - House Prices Dataset
