@@ -20,7 +20,6 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Fonte: Kaggle - House Prices Dataset
 • Contenuto: Informazioni dettagliate su proprietà immobiliari
 • Variabili: Superficie, numero stanze, anno costruzione, qualità, condizioni, garage, ecc.
-• Dimensioni: Migliaia di record con 36+ caratteristiche
 
 📐 PREPROCESSING DEI DATI
 • Pulizia dati: Rimozione valori nulli e anomali
@@ -30,7 +29,6 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Algoritmo Principale: Decision Tree Regressor (scikit-learn)
 • Alternative Valutate: K-Nearest Neighbors, Linear Regression, Random Forest
 • Ottimizzazione: Grid Search per iperparametri
-• Validazione: Cross-validation k-fold
 
 
 
@@ -61,8 +59,6 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 📚 RIFERIMENTI TECNICI
 • Framework ML: ML.NET, scikit-learn
 • Documentazione: Microsoft ML.NET docs
-• Best Practices: Machine Learning engineering principles
-• Metodologia: CRISP-DM (Cross Industry Standard Process for Data Mining)
 
 🔗 RISORSE
 • Dataset originale disponibile su Kaggle
