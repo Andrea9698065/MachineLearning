@@ -3,6 +3,7 @@
 
 📌 OBIETTIVO
 Creare un modello di Machine Learning supervisionato che preveda il prezzo degli immobili da input utente.
+
 [CONSEGNA]
 Sviluppare un modello di supervised learning in Python (usando scikit-learn, pandas o simili) oppure C# machine learning platform,
 capace di apprendere da un dataset reale e restituire previsioni credibili su nuovi input.
@@ -69,5 +70,9 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Manuale utente integrato
 • Log delle versioni e aggiornamenti";
 
+
 Creatori : Bedin Marco , Brunello Andrea , Gitaric Ivan
+
+
+
 Link data Set : https://www.kaggle.com/code/gusthema/house-prices-prediction-using-tfdf/input?select=train.csv
