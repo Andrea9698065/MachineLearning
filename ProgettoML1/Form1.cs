@@ -13,7 +13,7 @@ namespace ProgettoML
         private TextBox txtGarageArea, txtWoodDeckSF, txtOpenPorchSF, txtEnclosedPorch, txt3SsnPorch;
         private TextBox txtScreenPorch, txtPoolArea, txtMiscVal, txtMoSold, txtYrSold;
 
-        // Variabile per la modalità notte
+        // Variabile per la modalità notte / Gionrno. Se false  ==> Giorno , se True ==> Notte
         private bool isDarkMode = false;
 
         // Colori tema
@@ -34,21 +34,21 @@ namespace ProgettoML
 
         private void CustomizeForm()
         {
-            // Personalizza il form principale
-            this.Text = "Predittore Valore Immobiliare ML";
+           
+           
             this.BackColor = lightBackground;
 
-            // Aggiungi bordi ai pannelli
-            AddBordersToControls();
+            
+            AddBordersToControls();//Personalizzazzione Bordi
 
-            // Personalizza i bottoni
-            CustomizeButtons();
+            
+            CustomizeButtons();// Personalizzazzione i bottoni
 
-            // Personalizza il radio button
-            CustomizeRadioButton();
+            
+            CustomizeRadioButton();// Personalizzazzione il radio button
 
-            // Personalizza il titolo
-            CustomizeTitle();
+            
+            CustomizeTitle();// Personalizzazzione titolo
         }
 
         private void AddBordersToControls()
@@ -68,7 +68,7 @@ namespace ProgettoML
             tableLayoutPanel3.Padding = new Padding(10);
         }
 
-        private void CustomizeButtons()
+        private void CustomizeButtons()//Personalizzazzione singoli bottoni con simboli
         {
             CustomizeButton(button1, "🔍 Calcola Previsione");
             CustomizeButton(button4, "💾 Salva Dati");
@@ -81,8 +81,9 @@ namespace ProgettoML
             CustomizeButton(button2, "📝 README");
         }
 
-        private void CustomizeButton(Button btn, string text)
+        private void CustomizeButton(Button btn, string text)//Personalizzazzione comune per tutti i bottoni.
         {
+            //Aggiunge proprietà base
             btn.Text = text;
             btn.BackColor = accentColor;
             btn.ForeColor = Color.White;
@@ -91,7 +92,7 @@ namespace ProgettoML
             btn.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btn.Cursor = Cursors.Hand;
 
-            // Eventi per l'effetto hover
+            //Piccolo effetto con l'interazione del bottone 
             btn.MouseEnter += Button_MouseEnter;
             btn.MouseLeave += Button_MouseLeave;
         }
@@ -112,7 +113,7 @@ namespace ProgettoML
             if (btn != null)
             {
                 btn.BackColor = accentColor;
-                // Ripristina la dimensione originale usando Dock
+                
                 btn.Size = btn.Parent.Size;
             }
         }
@@ -123,14 +124,12 @@ namespace ProgettoML
             radioButton1.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             radioButton1.ForeColor = accentColor;
             radioButton1.Checked = false; // Default: modalità giorno
-            radioButton1.CheckedChanged += RadioButton1_CheckedChanged;
-
-            // Cambia il comportamento per toggle
+            radioButton1.Text = isDarkMode ? "☀️ Modalità Giorno" : "🌙 Modalità Notte";
             radioButton1.AutoCheck = false;
             radioButton1.Click += RadioButton1_Click;
         }
 
-        private void CustomizeTitle()
+        private void CustomizeTitle()//Peronalizzazzione Titolo
         {
             label1.Text = "🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING";
             label1.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
@@ -138,18 +137,13 @@ namespace ProgettoML
 
 
         }
-        private void RadioButton1_Click(object sender, EventArgs e)
+        private void RadioButton1_Click(object sender, EventArgs e)//Scambio giorno notte 
         {
-            // Toggle della modalità
+
             isDarkMode = !isDarkMode;
             radioButton1.Checked = isDarkMode;
             ApplyTheme();
 
-        }
-        private void RadioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-            radioButton1.Text = isDarkMode ? "☀️ Modalità Giorno" : "🌙 Modalità Notte";
         }
 
         private void ApplyTheme()
@@ -167,7 +161,7 @@ namespace ProgettoML
                 label1.ForeColor = Color.FromArgb(100, 150, 200);
                 radioButton1.ForeColor = Color.FromArgb(100, 150, 200);
 
-                // Applica tema scuro ai controlli
+                // Applica tema scuro
                 ApplyDarkThemeToControls(this);
             }
             else
@@ -183,7 +177,7 @@ namespace ProgettoML
                 label1.ForeColor = accentColor;
                 radioButton1.ForeColor = accentColor;
 
-                // Applica tema chiaro ai controlli
+                // Applica tema chiaro 
                 ApplyLightThemeToControls(this);
             }
         }
@@ -202,7 +196,7 @@ namespace ProgettoML
                     control.ForeColor = darkText;
                 }
 
-                // Applica ricorsivamente ai controlli figli
+                
                 if (control.HasChildren)
                 {
                     ApplyDarkThemeToControls(control);
@@ -224,7 +218,7 @@ namespace ProgettoML
                     control.ForeColor = lightText;
                 }
 
-                // Applica ricorsivamente ai controlli figli
+              
                 if (control.HasChildren)
                 {
                     ApplyLightThemeToControls(control);
@@ -233,38 +227,36 @@ namespace ProgettoML
         }
 
 
-        private void CreaTabellaDinamica()
+        private void CreaTabellaDinamica()//Personalizza Tabella : tablelayoutpanell4
         {
-            // Configura il tableLayoutPanel4 esistente per contenere i controlli ML
+            
             tableLayoutPanel4.ColumnCount = 4; // 4 colonne per label/textbox pairs
             tableLayoutPanel4.RowCount = 18; // Numero di righe necessarie
 
-            // Pulisci le colonne esistenti e riconfigura
+            
             tableLayoutPanel4.ColumnStyles.Clear();
             tableLayoutPanel4.RowStyles.Clear();
 
-            // Configura le colonne (25% ciascuna)
+            // Configura le colonne
             for (int i = 0; i < 4; i++)
             {
                 tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             }
 
-            // Configura le righe con dimensione automatica
+            // Configura le righe
             for (int i = 0; i < 18; i++)
             {
                 tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.AutoSize));
             }
 
-            // Abilita lo scroll se necessario
+            //scroll
             tableLayoutPanel4.AutoScroll = true;
 
-            // Inizializza le TextBox
+            //Inizializzo TextBox
             InitializeTextBoxes();
-
-            // Aggiungi i controlli al TableLayoutPanel esistente
             AddControlsToTable();
 
-            // Configura la textBoxOutput esistente
+            
             textBoxOutput.Multiline = true;
             textBoxOutput.ReadOnly = true;
             textBoxOutput.Dock = DockStyle.Fill;
@@ -273,7 +265,7 @@ namespace ProgettoML
             textBoxOutput.BackColor = Color.FromArgb(248, 248, 248);
         }
 
-        private void InitializeTextBoxes()
+        private void InitializeTextBoxes()//Quando inizializzo il programma metto dei valori di "base"
         {
             txtId = CreateStyledTextBox("2");
             txtMSSubClass = CreateStyledTextBox("20");
@@ -351,7 +343,7 @@ namespace ProgettoML
             AddLabelAndTextBox("🏡 Gr Liv Area:", txtGrLivArea, 0, row++);
             AddLabelAndTextBox("🛁 Bsmt Full Bath:", txtBsmtFullBath, 0, row++);
             AddLabelAndTextBox("📆 Yr Sold:", txtYrSold, 0, row++);
-            row = 0; // Reset per seconda colonna
+            row = 0; 
 
             // Seconda colonna di controlli (colonne 2-3)
             AddLabelAndTextBox("🚿 Bsmt Half Bath:", txtBsmtHalfBath, 2, row++);
@@ -398,15 +390,15 @@ namespace ProgettoML
         private void Form1_Load(object sender, EventArgs e)
         {
             CreaTabellaDinamica();
-            ApplyTheme(); // Applica il tema iniziale
+            ApplyTheme(); 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//Bottone Per La Previsione
         {
-            try
+            try//prova a prendere i dati
             {
 
-                var sampleData = new MLModel1.ModelInput()
+                var sampleData = new MLModel1.ModelInput()//Prende i dati
                 {
 
                     MSSubClass = ParseFloatSafe(txtMSSubClass, 20F),
@@ -447,10 +439,10 @@ namespace ProgettoML
                     YrSold = ParseFloatSafe(txtYrSold, 2007F)
                 };
 
-                // Esegui la previsione
-                var prediction = MLModel1.Predict(sampleData);
+            
+                var prediction = MLModel1.Predict(sampleData);//chiama il modello per fare la previsione
 
-                // Aggiungi il risultato alla cronologia invece di sovrascrivere
+                
                 string nuovoRisultato = $"💰 VALORE PREVISTO: {prediction.Score:C}\r\n" +
                                        $"📅 Data: {DateTime.Now:dd/MM/yyyy HH:mm:ss}\r\n" +
                                        $"{"".PadRight(50, '=')}\r\n\r\n";
@@ -470,7 +462,7 @@ namespace ProgettoML
                 textBoxOutput.ScrollToCaret();
 
             }
-            catch (Exception ex)
+            catch (Exception ex)//Se c'è un errore
             {
                 string erroreMessage = $"❌ ERRORE: {ex.Message}\r\n" +
                                       $"📅 Data: {DateTime.Now:dd/MM/yyyy HH:mm:ss}\r\n" +
@@ -492,42 +484,43 @@ namespace ProgettoML
 
         private void btnTest1_Click(object sender, EventArgs e)
         {
-                txtMSSubClass.Text = "60";           // Tipo proprietà: Piani con garage
-                txtLotFrontage.Text = "108";         // Frontale del lotto in piedi
-                txtLotArea.Text = "13418";           // Area del lotto
-                txtOverallQual.Text = "8";           // Qualità complessiva: alta
-                txtOverallCond.Text = "5";           // Condizione complessiva: media
-                txtYearBuilt.Text = "2004";          // Anno costruzione
-                txtYearRemodAdd.Text = "2005";       // Anno ristrutturazione
-                txtMasVnrArea.Text = "132";          // Area rivestimento in muratura
-                txtBsmtFinSF1.Text = "1117";         // Seminterrato finito tipo 1
-                txtBsmtFinSF2.Text = "0";            // Seminterrato finito tipo 2
-                txtBsmtUnfSF.Text = "0";             // Seminterrato non finito
-                txtTotalBsmtSF.Text = "1117";        // Totale area seminterrato
-                txt1stFlrSF.Text = "1132";           // Superficie primo piano
-                txt2ndFlrSF.Text = "1320";           // Superficie secondo piano
-                txtLowQualFinSF.Text = "0";          // Superficie finita bassa qualità
-                txtGrLivArea.Text = "2452";          // Superficie abitabile sopra terra
-                txtBsmtFullBath.Text = "1";          // Bagno completo nel seminterrato
-                txtBsmtHalfBath.Text = "0";          // Mezzo bagno nel seminterrato
-                txtFullBath.Text = "3";              // Bagni completi
-                txtHalfBath.Text = "1";              // Mezzi bagni
-                txtBedroomAbvGr.Text = "4";          // Camere sopra il suolo
-                txtKitchenAbvGr.Text = "1";          // Cucine sopra il suolo
-                txtTotRmsAbvGrd.Text = "9";          // Totale stanze (esclusi bagni)
-                txtFireplaces.Text = "1";            // Camini
-                txtGarageYrBlt.Text = "2004";        // Anno costruzione garage
-                txtGarageCars.Text = "3";            // Capienza garage (auto)
-                txtGarageArea.Text = "691";          // Superficie garage
-                txtWoodDeckSF.Text = "113";          // Superficie terrazza in legno
-                txtOpenPorchSF.Text = "32";          // Superficie veranda aperta
-                txtEnclosedPorch.Text = "0";         // Superficie veranda chiusa
-                txt3SsnPorch.Text = "0";             // Veranda tre stagioni
-                txtScreenPorch.Text = "0";           // Veranda con zanzariere
-                txtPoolArea.Text = "0";              // Superficie piscina
-                txtMiscVal.Text = "0";               // Valore oggetti extra
-                txtMoSold.Text = "2";                // Mese di vendita
-                txtYrSold.Text = "2006";             // Anno di vendita
+            txtMSSubClass.Text = "60";
+            txtLotFrontage.Text = "108";
+            txtLotArea.Text = "13418";
+            txtOverallQual.Text = "8";
+            txtOverallCond.Text = "5";
+            txtYearBuilt.Text = "2004";
+            txtYearRemodAdd.Text = "2005";
+            txtMasVnrArea.Text = "132";
+            txtBsmtFinSF1.Text = "1117";
+            txtBsmtFinSF2.Text = "0";
+            txtBsmtUnfSF.Text = "0";
+            txtTotalBsmtSF.Text = "1117";
+            txt1stFlrSF.Text = "1132";
+            txt2ndFlrSF.Text = "1320";
+            txtLowQualFinSF.Text = "0";
+            txtGrLivArea.Text = "2452";
+            txtBsmtFullBath.Text = "1";
+            txtBsmtHalfBath.Text = "0";
+            txtFullBath.Text = "3";
+            txtHalfBath.Text = "1";
+            txtBedroomAbvGr.Text = "4";
+            txtKitchenAbvGr.Text = "1";
+            txtTotRmsAbvGrd.Text = "9";
+            txtFireplaces.Text = "1";
+            txtGarageYrBlt.Text = "2004";
+            txtGarageCars.Text = "3";
+            txtGarageArea.Text = "691";
+            txtWoodDeckSF.Text = "113";
+            txtOpenPorchSF.Text = "32";
+            txtEnclosedPorch.Text = "0";
+            txt3SsnPorch.Text = "0";
+            txtScreenPorch.Text = "0";
+            txtPoolArea.Text = "0";
+            txtMiscVal.Text = "0";
+            txtMoSold.Text = "2";
+            txtYrSold.Text = "2006";
+
 
         }
 
@@ -615,7 +608,7 @@ namespace ProgettoML
         }
 
 
-        private void btnResetCronologia_Click(object sender, EventArgs e)
+        private void btnResetCronologia_Click(object sender, EventArgs e)//Resetto la cronologia
         {
 
             textBoxOutput.Text = "";
@@ -626,7 +619,7 @@ namespace ProgettoML
                                $"{"".PadRight(50, '=')}\r\n\r\n";
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)//Salvo il file
         {
 
             try
@@ -640,7 +633,7 @@ namespace ProgettoML
                 {
                     string contenuto = "";
 
-                    // Se c'è già una previsione nella textBoxOutput, estrai il valore
+                  
                     if (!string.IsNullOrEmpty(textBoxOutput.Text))
                     {
                         var lines = textBoxOutput.Text.Split('\n');
@@ -769,7 +762,7 @@ namespace ProgettoML
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)//Bottone del README
         {
             Form infoForm = new Form
             {
@@ -806,7 +799,7 @@ namespace ProgettoML
                 Padding = new Padding(0, 10, 0, 0)
             };
 
-            // Bottone Copia
+   
             Button btnCopia = new Button
             {
                 Text = "📋 Copiami",
@@ -874,7 +867,7 @@ namespace ProgettoML
             btnLink.MouseEnter += (s, args) => btnLink.BackColor = Color.FromArgb(255, 69, 101);
             btnLink.MouseLeave += (s, args) => btnLink.BackColor = Color.FromArgb(220, 20, 60);
 
-           
+           //Contenuto del README
             richTextBox.Text =
 
 @"🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING
