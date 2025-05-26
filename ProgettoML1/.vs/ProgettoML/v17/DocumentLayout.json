@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\documents\\machinelearning\\progettoml1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
+      "AbsoluteMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|c:\\users\\andre\\documents\\machinelearning\\progettoml1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC60E18F-F20D-4F35-903D-AA2527B3E300}|ProgettoML.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -32,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,22 +46,21 @@
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAADMAAAAuAAAA",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAAAOUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:36:53.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T15:36:53.87Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Progettazione]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T15:22:46.46Z",
-              "EditorCaption": " [Progettazione]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -71,32 +70,31 @@
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\MLModel1_ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\Program.cs",
               "RelativeToolTip": "..\\..\\..\\source\\repos\\MLModel1_ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEIAAAAmAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T15:02:57.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T15:02:57.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MLModel1.mbconfig",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig*",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\MLModel1_ConsoleApp1\\MLModel1.mbconfig*",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|",
               "WhenOpened": "2025-05-25T14:34:30.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\MachineLearning\\ProgettoML1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAIwDAAAAAAAAAAAgwJkDAAAgAAAA",
+              "ViewState": "AQIAAJwDAAAAAAAAAAAgwK8DAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T13:11:05.551Z",
               "EditorCaption": ""

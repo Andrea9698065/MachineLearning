@@ -492,124 +492,126 @@ namespace ProgettoML
 
         private void btnTest1_Click(object sender, EventArgs e)
         {
-            txtMSSubClass.Text = "60";
-            txtLotFrontage.Text = "108";
-            txtLotArea.Text = "13418";
-            txtOverallQual.Text = "8";
-            txtOverallCond.Text = "5";
-            txtYearBuilt.Text = "2004";
-            txtYearRemodAdd.Text = "2005";
-            txtMasVnrArea.Text = "132";
-            txtBsmtFinSF1.Text = "1117";
-            txtBsmtFinSF2.Text = "0";
-            txtBsmtUnfSF.Text = "0";
-            txtTotalBsmtSF.Text = "1117";
-            txt1stFlrSF.Text = "1132";
-            txt2ndFlrSF.Text = "1320";
-            txtLowQualFinSF.Text = "0";
-            txtGrLivArea.Text = "2452";
-            txtBsmtFullBath.Text = "1";
-            txtBsmtHalfBath.Text = "0";
-            txtFullBath.Text = "3";
-            txtHalfBath.Text = "1";
-            txtBedroomAbvGr.Text = "4";
-            txtKitchenAbvGr.Text = "1";
-            txtTotRmsAbvGrd.Text = "9";
-            txtFireplaces.Text = "1";
-            txtGarageYrBlt.Text = "2004";
-            txtGarageCars.Text = "3";
-            txtGarageArea.Text = "691";
-            txtWoodDeckSF.Text = "113";
-            txtOpenPorchSF.Text = "32";
-            txtEnclosedPorch.Text = "0";
-            txt3SsnPorch.Text = "0";
-            txtScreenPorch.Text = "0";
-            txtPoolArea.Text = "0";
-            txtMiscVal.Text = "0";
-            txtMoSold.Text = "2";
-            txtYrSold.Text = "2006";
+                txtMSSubClass.Text = "60";           // Tipo proprietà: Piani con garage
+                txtLotFrontage.Text = "108";         // Frontale del lotto in piedi
+                txtLotArea.Text = "13418";           // Area del lotto
+                txtOverallQual.Text = "8";           // Qualità complessiva: alta
+                txtOverallCond.Text = "5";           // Condizione complessiva: media
+                txtYearBuilt.Text = "2004";          // Anno costruzione
+                txtYearRemodAdd.Text = "2005";       // Anno ristrutturazione
+                txtMasVnrArea.Text = "132";          // Area rivestimento in muratura
+                txtBsmtFinSF1.Text = "1117";         // Seminterrato finito tipo 1
+                txtBsmtFinSF2.Text = "0";            // Seminterrato finito tipo 2
+                txtBsmtUnfSF.Text = "0";             // Seminterrato non finito
+                txtTotalBsmtSF.Text = "1117";        // Totale area seminterrato
+                txt1stFlrSF.Text = "1132";           // Superficie primo piano
+                txt2ndFlrSF.Text = "1320";           // Superficie secondo piano
+                txtLowQualFinSF.Text = "0";          // Superficie finita bassa qualità
+                txtGrLivArea.Text = "2452";          // Superficie abitabile sopra terra
+                txtBsmtFullBath.Text = "1";          // Bagno completo nel seminterrato
+                txtBsmtHalfBath.Text = "0";          // Mezzo bagno nel seminterrato
+                txtFullBath.Text = "3";              // Bagni completi
+                txtHalfBath.Text = "1";              // Mezzi bagni
+                txtBedroomAbvGr.Text = "4";          // Camere sopra il suolo
+                txtKitchenAbvGr.Text = "1";          // Cucine sopra il suolo
+                txtTotRmsAbvGrd.Text = "9";          // Totale stanze (esclusi bagni)
+                txtFireplaces.Text = "1";            // Camini
+                txtGarageYrBlt.Text = "2004";        // Anno costruzione garage
+                txtGarageCars.Text = "3";            // Capienza garage (auto)
+                txtGarageArea.Text = "691";          // Superficie garage
+                txtWoodDeckSF.Text = "113";          // Superficie terrazza in legno
+                txtOpenPorchSF.Text = "32";          // Superficie veranda aperta
+                txtEnclosedPorch.Text = "0";         // Superficie veranda chiusa
+                txt3SsnPorch.Text = "0";             // Veranda tre stagioni
+                txtScreenPorch.Text = "0";           // Veranda con zanzariere
+                txtPoolArea.Text = "0";              // Superficie piscina
+                txtMiscVal.Text = "0";               // Valore oggetti extra
+                txtMoSold.Text = "2";                // Mese di vendita
+                txtYrSold.Text = "2006";             // Anno di vendita
+
         }
 
 
         private void btnTest2_Click(object sender, EventArgs e)
         {
             txtMSSubClass.Text = "20";
-            txtLotFrontage.Text = "112";
-            txtLotArea.Text = "10859";
-            txtOverallQual.Text = "5";
+            txtLotFrontage.Text = "75";
+            txtLotArea.Text = "10084";
+            txtOverallQual.Text = "8";
             txtOverallCond.Text = "5";
-            txtYearBuilt.Text = "1994";
-            txtYearRemodAdd.Text = "1995";
-            txtMasVnrArea.Text = "0";
-            txtBsmtFinSF1.Text = "1097";
+            txtYearBuilt.Text = "2004";
+            txtYearRemodAdd.Text = "2005";
+            txtMasVnrArea.Text = "186";
+            txtBsmtFinSF1.Text = "1369";
             txtBsmtFinSF2.Text = "0";
-            txtBsmtUnfSF.Text = "0";
-            txtTotalBsmtSF.Text = "1097";
-            txt1stFlrSF.Text = "1097";
-            txt2ndFlrSF.Text = "0";
+            txtBsmtUnfSF.Text = "317";
+            txtTotalBsmtSF.Text = "1686";
+            txt1stFlrSF.Text = "1694";
+            txt2ndFlrSF.Text = "806";
             txtLowQualFinSF.Text = "0";
-            txtGrLivArea.Text = "1097";
+            txtGrLivArea.Text = "2500";
             txtBsmtFullBath.Text = "1";
             txtBsmtHalfBath.Text = "0";
-            txtFullBath.Text = "1";
+            txtFullBath.Text = "2";
             txtHalfBath.Text = "1";
             txtBedroomAbvGr.Text = "3";
             txtKitchenAbvGr.Text = "1";
-            txtTotRmsAbvGrd.Text = "6";
-            txtFireplaces.Text = "0";
-            txtGarageYrBlt.Text = "1995";
+            txtTotRmsAbvGrd.Text = "8";
+            txtFireplaces.Text = "1";
+            txtGarageYrBlt.Text = "2004";
             txtGarageCars.Text = "2";
-            txtGarageArea.Text = "672";
-            txtWoodDeckSF.Text = "392";
-            txtOpenPorchSF.Text = "64";
+            txtGarageArea.Text = "522";
+            txtWoodDeckSF.Text = "255";
+            txtOpenPorchSF.Text = "57";
             txtEnclosedPorch.Text = "0";
             txt3SsnPorch.Text = "0";
             txtScreenPorch.Text = "0";
             txtPoolArea.Text = "0";
             txtMiscVal.Text = "0";
-            txtMoSold.Text = "6";
-            txtYrSold.Text = "2009";
+            txtMoSold.Text = "8";
+            txtYrSold.Text = "2007";
+
         }
 
 
         private void btnTest3_Click(object sender, EventArgs e)
         {
             txtMSSubClass.Text = "20";
-            txtLotFrontage.Text = "74";
-            txtLotArea.Text = "8532";
+            txtLotFrontage.Text = "60";
+            txtLotArea.Text = "7200";
             txtOverallQual.Text = "5";
-            txtOverallCond.Text = "6";
-            txtYearBuilt.Text = "1954";
-            txtYearRemodAdd.Text = "1990";
-            txtMasVnrArea.Text = "650";
-            txtBsmtFinSF1.Text = "1213";
-            txtBsmtFinSF2.Text = "0";
-            txtBsmtUnfSF.Text = "84";
-            txtTotalBsmtSF.Text = "1297";
-            txt1stFlrSF.Text = "1297";
+            txtOverallCond.Text = "7";
+            txtYearBuilt.Text = "1951";
+            txtYearRemodAdd.Text = "2000";
+            txtMasVnrArea.Text = "0";
+            txtBsmtFinSF1.Text = "234";
+            txtBsmtFinSF2.Text = "486";
+            txtBsmtUnfSF.Text = "180";
+            txtTotalBsmtSF.Text = "900";
+            txt1stFlrSF.Text = "900";
             txt2ndFlrSF.Text = "0";
             txtLowQualFinSF.Text = "0";
-            txtGrLivArea.Text = "1297";
-            txtBsmtFullBath.Text = "1";
-            txtBsmtHalfBath.Text = "0";
+            txtGrLivArea.Text = "900";
+            txtBsmtFullBath.Text = "0";
+            txtBsmtHalfBath.Text = "1";
             txtFullBath.Text = "1";
             txtHalfBath.Text = "0";
             txtBedroomAbvGr.Text = "3";
             txtKitchenAbvGr.Text = "1";
             txtTotRmsAbvGrd.Text = "5";
-            txtFireplaces.Text = "1";
-            txtGarageYrBlt.Text = "1954";
+            txtFireplaces.Text = "0";
+            txtGarageYrBlt.Text = "2005";
             txtGarageCars.Text = "2";
-            txtGarageArea.Text = "498";
-            txtWoodDeckSF.Text = "0";
-            txtOpenPorchSF.Text = "0";
+            txtGarageArea.Text = "576";
+            txtWoodDeckSF.Text = "222";
+            txtOpenPorchSF.Text = "32";
             txtEnclosedPorch.Text = "0";
             txt3SsnPorch.Text = "0";
             txtScreenPorch.Text = "0";
             txtPoolArea.Text = "0";
             txtMiscVal.Text = "0";
-            txtMoSold.Text = "10";
-            txtYrSold.Text = "2009";
+            txtMoSold.Text = "5";
+            txtYrSold.Text = "2010";
         }
 
 
@@ -818,13 +820,13 @@ namespace ProgettoML
             };
             btnCopia.FlatAppearance.BorderSize = 0;
 
-            // Bottone Link Database
+         
             Button btnLink = new Button
             {
                 Text = "🔗 Link Database",
                 Size = new Size(150, 40),
                 Location = new Point(220, 10),
-                BackColor = Color.FromArgb(220, 20, 60), // Crimson
+                BackColor = Color.FromArgb(220, 20, 60),
                 ForeColor = Color.White,
                 FlatStyle = FlatStyle.Flat,
                 Font = new Font("Segoe UI", 10F, FontStyle.Bold),
@@ -832,7 +834,7 @@ namespace ProgettoML
             };
             btnLink.FlatAppearance.BorderSize = 0;
 
-            // Eventi bottoni
+           
             btnCopia.Click += (s, args) =>
             {
                 try
@@ -866,15 +868,15 @@ namespace ProgettoML
                 }
             };
 
-            // Effetti hover per i bottoni
+            
             btnCopia.MouseEnter += (s, args) => btnCopia.BackColor = accentColorHover;
             btnCopia.MouseLeave += (s, args) => btnCopia.BackColor = accentColor;
             btnLink.MouseEnter += (s, args) => btnLink.BackColor = Color.FromArgb(255, 69, 101);
             btnLink.MouseLeave += (s, args) => btnLink.BackColor = Color.FromArgb(220, 20, 60);
 
-            // Contenuto informativo (allineato a sinistra)
-            richTextBox.Text = 
-                
+           
+            richTextBox.Text =
+
 @"🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING
 📌 OBIETTIVO
 Creare un modello di Machine Learning supervisionato che preveda il prezzo degli immobili da input utente.
@@ -892,7 +894,7 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Fonte: Kaggle - House Prices Dataset
 • Contenuto: Informazioni dettagliate su proprietà immobiliari
 • Variabili: Superficie, numero stanze, anno costruzione, qualità, condizioni, garage, ecc.
-• Dimensioni: Migliaia di record con 36+ caratteristiche
+
 
 📐 PREPROCESSING DEI DATI
 • Pulizia dati: Rimozione valori nulli e anomali
@@ -900,8 +902,6 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 
 🧠 MODELLO UTILIZZATO
 • Algoritmo Principale: Decision Tree Regressor (scikit-learn)
-• Alternative Valutate: K-Nearest Neighbors, Linear Regression, Random Forest
-• Ottimizzazione: Grid Search per iperparametri
 • Validazione: Cross-validation k-fold
 
 
@@ -934,13 +934,55 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Framework ML: ML.NET, scikit-learn
 • Documentazione: Microsoft ML.NET docs
 • Best Practices: Machine Learning engineering principles
-• Metodologia: CRISP-DM (Cross Industry Standard Process for Data Mining)
+
 
 🔗 RISORSE
 • Dataset originale disponibile su Kaggle
 • Codice sorgente documentato
 • Manuale utente integrato
-• Log delle versioni e aggiornamenti";
+• Log delle versioni e aggiornamenti
+
+🚿Esempio Con spiegazione : 
+MSSubClass = ""60"";           // Tipo proprietà: Piani con garage
+LotFrontage = ""108"";         // Frontale del lotto in piedi
+LotArea = ""13418"";           // Area del lotto
+OverallQual = ""8"";           // Qualità complessiva: alta
+OverallCond = ""5"";           // Condizione complessiva: media
+YearBuilt = ""2004"";          // Anno costruzione
+YearRemodAdd = ""2005"";       // Anno ristrutturazione
+MasVnrArea = ""132"";          // Area rivestimento in muratura
+BsmtFinSF1 = ""1117"";         // Seminterrato finito tipo 1
+BsmtFinSF2 = ""0"";            // Seminterrato finito tipo 2
+BsmtUnfSF = ""0"";             // Seminterrato non finito
+TotalBsmtSF = ""1117"";        // Totale area seminterrato
+_1stFlrSF = ""1132"";          // Superficie primo piano
+_2ndFlrSF = ""1320"";          // Superficie secondo piano
+LowQualFinSF = ""0"";          // Superficie finita bassa qualità
+GrLivArea = ""2452"";          // Superficie abitabile sopra terra
+BsmtFullBath = ""1"";          // Bagno completo nel seminterrato
+BsmtHalfBath = ""0"";          // Mezzo bagno nel seminterrato
+FullBath = ""3"";              // Bagni completi
+HalfBath = ""1"";              // Mezzi bagni
+BedroomAbvGr = ""4"";          // Camere sopra il suolo
+KitchenAbvGr = ""1"";          // Cucine sopra il suolo
+TotRmsAbvGrd = ""9"";          // Totale stanze (esclusi bagni)
+Fireplaces = ""1"";            // Camini
+GarageYrBlt = ""2004"";        // Anno costruzione garage
+GarageCars = ""3"";            // Capienza garage (auto)
+GarageArea = ""691"";          // Superficie garage
+WoodDeckSF = ""113"";          // Superficie terrazza in legno
+OpenPorchSF = ""32"";          // Superficie veranda aperta
+EnclosedPorch = ""0"";         // Superficie veranda chiusa
+_3SsnPorch = ""0"";            // Veranda tre stagioni
+ScreenPorch = ""0"";           // Veranda con zanzariere
+PoolArea = ""0"";              // Superficie piscina
+MiscVal = ""0"";               // Valore oggetti extra
+MoSold = ""2"";                // Mese di vendita
+YrSold = ""2006"";             // Anno di vendita
+
+
+
+";
 
  
             if (isDarkMode)
@@ -970,4 +1012,33 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
             infoForm.ShowDialog();
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
