@@ -68,42 +68,117 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 
 
 🚿Esempio Con spiegazione : 
-MSSubClass = ""60"";           // Tipo proprietà: Piani con garage
-LotFrontage = ""108"";         // Frontale del lotto in piedi
-LotArea = ""13418"";           // Area del lotto
-OverallQual = ""8"";           // Qualità complessiva: alta
-OverallCond = ""5"";           // Condizione complessiva: media
-YearBuilt = ""2004"";          // Anno costruzione
-YearRemodAdd = ""2005"";       // Anno ristrutturazione
-MasVnrArea = ""132"";          // Area rivestimento in muratura
-BsmtFinSF1 = ""1117"";         // Seminterrato finito tipo 1
-BsmtFinSF2 = ""0"";            // Seminterrato finito tipo 2
-BsmtUnfSF = ""0"";             // Seminterrato non finito
+MSSubClass = "60";           // Tipo proprietà: Piani con garage
+
+
+
+LotFrontage = "108";         // Frontale del lotto in piedi
+
+
+
+LotArea = "13418";           // Area del lotto
+
+
+
+OverallQual = "8";           // Qualità complessiva: alta
+
+
+
+OverallCond = "5";           // Condizione complessiva: media
+
+
+YearBuilt = "2003";          // Anno costruzione
+
+
+YearRemodAdd = "2005";       // Anno ristrutturazione
+
+MasVnrArea = "132";          // Area rivestimento in muratura
+
+BsmtFinSF1 = "1117";         // Seminterrato finito tipo 1
+
+
+BsmtFinSF2 = "0";            // Seminterrato finito tipo 2
+
+
+
+BsmtUnfSF = "0";             // Seminterrato non finito
+
+
 TotalBsmtSF = ""1117"";        // Totale area seminterrato
-_1stFlrSF = ""1132"";          // Superficie primo piano
-_2ndFlrSF = ""1320"";          // Superficie secondo piano
+
+
+_1stFlrSF = "1132";          // Superficie primo piano
+
+
+_2ndFlrSF = "1320";          // Superficie secondo piano
+
+
 LowQualFinSF = ""0"";          // Superficie finita bassa qualità
+
+
 GrLivArea = ""2452"";          // Superficie abitabile sopra terra
+
+
 BsmtFullBath = ""1"";          // Bagno completo nel seminterrato
+
+
 BsmtHalfBath = ""0"";          // Mezzo bagno nel seminterrato
+
+
 FullBath = ""3"";              // Bagni completi
+
+
 HalfBath = ""1"";              // Mezzi bagni
+
+
 BedroomAbvGr = ""4"";          // Camere sopra il suolo
+
+
 KitchenAbvGr = ""1"";          // Cucine sopra il suolo
+
+
 TotRmsAbvGrd = ""9"";          // Totale stanze (esclusi bagni)
+
+
 Fireplaces = ""1"";            // Camini
+
+
 GarageYrBlt = ""2004"";        // Anno costruzione garage
+
+
 GarageCars = ""3"";            // Capienza garage (auto)
+
+
 GarageArea = ""691"";          // Superficie garage
+
+
 WoodDeckSF = ""113"";          // Superficie terrazza in legno
+
+
 OpenPorchSF = ""32"";          // Superficie veranda aperta
+
+
 EnclosedPorch = ""0"";         // Superficie veranda chiusa
+
+
 _3SsnPorch = ""0"";            // Veranda tre stagioni
+
+
 ScreenPorch = ""0"";           // Veranda con zanzariere
+
+
 PoolArea = ""0"";              // Superficie piscina
+
+
 MiscVal = ""0"";               // Valore oggetti extra
+
+
 MoSold = ""2"";                // Mese di vendita
+
+
 YrSold = ""2006"";             // Anno di vendita
+
+
 
 Creatori : Bedin Marco , Brunello Andrea , Gitaric Ivan
 
