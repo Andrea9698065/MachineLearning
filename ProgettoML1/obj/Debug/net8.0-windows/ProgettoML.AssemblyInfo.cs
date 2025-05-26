@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgettoML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df0bc7bcbea5dfac1b8678d989e87dd71fa90c31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+557c4b6b86eef6ae28d8b1f4dc69b31a80dddae5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgettoML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgettoML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
