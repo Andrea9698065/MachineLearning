@@ -122,61 +122,61 @@ GrLivArea = ""2452"";          // Superficie abitabile sopra terra
 BsmtFullBath = ""1"";          // Bagno completo nel seminterrato
 
 
-BsmtHalfBath = ""0"";          // Mezzo bagno nel seminterrato
+BsmtHalfBath = "0";          // Mezzo bagno nel seminterrato
 
 
-FullBath = ""3"";              // Bagni completi
+FullBath = "3";              // Bagni completi
 
 
-HalfBath = ""1"";              // Mezzi bagni
+HalfBath = "1";              // Mezzi bagni
 
 
-BedroomAbvGr = ""4"";          // Camere sopra il suolo
+BedroomAbvGr = "4";          // Camere sopra il suolo
 
 
-KitchenAbvGr = ""1"";          // Cucine sopra il suolo
+KitchenAbvGr = "1";          // Cucine sopra il suolo
 
 
-TotRmsAbvGrd = ""9"";          // Totale stanze (esclusi bagni)
+TotRmsAbvGrd = "9";          // Totale stanze (esclusi bagni)
 
 
-Fireplaces = ""1"";            // Camini
+Fireplaces = "1";            // Camini
 
 
-GarageYrBlt = ""2004"";        // Anno costruzione garage
+GarageYrBlt = "2004";        // Anno costruzione garage
 
 
-GarageCars = ""3"";            // Capienza garage (auto)
+GarageCars = "3";            // Capienza garage (auto)
 
 
-GarageArea = ""691"";          // Superficie garage
+GarageArea = "691";          // Superficie garage
 
 
-WoodDeckSF = ""113"";          // Superficie terrazza in legno
+WoodDeckSF = "113";          // Superficie terrazza in legno
 
 
-OpenPorchSF = ""32"";          // Superficie veranda aperta
+OpenPorchSF = "32";          // Superficie veranda aperta
 
 
-EnclosedPorch = ""0"";         // Superficie veranda chiusa
+EnclosedPorch = "0";         // Superficie veranda chiusa
 
 
-_3SsnPorch = ""0"";            // Veranda tre stagioni
+_3SsnPorch = "0";            // Veranda tre stagioni
 
 
-ScreenPorch = ""0"";           // Veranda con zanzariere
+ScreenPorch = "0";           // Veranda con zanzariere
 
 
-PoolArea = ""0"";              // Superficie piscina
+PoolArea = "0";              // Superficie piscina
 
 
-MiscVal = ""0"";               // Valore oggetti extra
+MiscVal = "0";               // Valore oggetti extra
 
 
-MoSold = ""2"";                // Mese di vendita
+MoSold = "2";                // Mese di vendita
 
 
-YrSold = ""2006"";             // Anno di vendita
+YrSold = "2006";             // Anno di vendita
 
 
 
