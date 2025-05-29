@@ -1,10 +1,9 @@
-🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING
-
-
+@"🏠 SISTEMA DI VALUTAZIONE IMMOBILIARE CON MACHINE LEARNING
 📌 OBIETTIVO
 Creare un modello di Machine Learning supervisionato che preveda il prezzo degli immobili da input utente.
 
-[CONSEGNA]
+[CONSEGNA COMPLETA]
+
 Sviluppare un modello di supervised learning in Python (usando scikit-learn, pandas o simili) oppure C# machine learning platform,
 capace di apprendere da un dataset reale e restituire previsioni credibili su nuovi input.
 Scegli un dataset da una fonte affidabile (Kaggle, UCI, OpenML) e descrivilo brevemente.
@@ -14,22 +13,22 @@ Valuta le prestazioni del modello con metriche appropriate.
 Testa il modello con almeno tre input inventati ma realistici.
 Concludi con una breve riflessione su efficacia e limiti del lavoro.
 Il link alla repository GIT con dataset e codice del machine learning, inoltre consegnare una presentazione che spieghi i procedimenti e l'algoritmo di machine learning scelto
-[CONSEGNA]
-                        
+    
+[CONSEGNA COMPLETA]
+
 📊 DATASET
 • Fonte: Kaggle - House Prices Dataset
 • Contenuto: Informazioni dettagliate su proprietà immobiliari
 • Variabili: Superficie, numero stanze, anno costruzione, qualità, condizioni, garage, ecc.
+
 
 📐 PREPROCESSING DEI DATI
 • Pulizia dati: Rimozione valori nulli e anomali
 • Split Dataset: 80% training / 20% testing
 
 🧠 MODELLO UTILIZZATO
-• Algoritmo Principale: Decision Tree Regressor (scikit-learn)
-• Alternative Valutate: K-Nearest Neighbors, Linear Regression, Random Forest
-• Ottimizzazione: Grid Search per iperparametri
-
+• Algoritmo Principale: LightGbmRegression
+• Precisione pari a 86%
 
 
 🖥️ INTERFACCIA UTENTE
@@ -47,7 +46,6 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Linguaggio: C# con ML.NET
 • Framework: .NET Framework/Core
 • Librerie: System.Windows.Forms, ML.NET
-• Pattern: Event-driven programming
 • Architettura: Single-form application con componenti modulari
 
 ⚠️ LIMITAZIONI E CONSIDERAZIONI
@@ -57,131 +55,123 @@ Il link alla repository GIT con dataset e codice del machine learning, inoltre c
 • Non considera fattori esterni (economia, politiche, eventi)
 
 📚 RIFERIMENTI TECNICI
-• Framework ML: ML.NET, scikit-learn
-• Documentazione: Microsoft ML.NET docs
+• Documentazione: Microsoft ML.NET docs, siti online, spiegazioni in classe
+
 
 🔗 RISORSE
 • Dataset originale disponibile su Kaggle
 • Codice sorgente documentato
 • Manuale utente integrato
-• Log delle versioni e aggiornamenti";
-
+• Log delle versioni e aggiornamenti
 
 🚿Esempio Con spiegazione : 
-MSSubClass = "60";           // Tipo proprietà: Piani con garage
+MSSubClass      ==> Tipo proprietà: Piani con garage
 
 
+LotFrontage     ==> Frontale del lotto in piedi
 
-LotFrontage = "108";         // Frontale del lotto in piedi
 
+LotArea         ==> Area del lotto
 
 
-LotArea = "13418";           // Area del lotto
+OverallQual     ==> Qualità complessiva: alta
 
 
+OverallCond     ==> Condizione complessiva: media
 
-OverallQual = "8";           // Qualità complessiva: alta
 
+YearBuilt       ==> Anno costruzione
 
 
-OverallCond = "5";           // Condizione complessiva: media
+YearRemodAdd    ==> Anno ristrutturazione
 
 
-YearBuilt = "2003";          // Anno costruzione
+MasVnrArea      ==> Area rivestimento in muratura
 
 
-YearRemodAdd = "2005";       // Anno ristrutturazione
+BsmtFinSF1      ==> Seminterrato finito tipo 1
 
-MasVnrArea = "132";          // Area rivestimento in muratura
 
-BsmtFinSF1 = "1117";         // Seminterrato finito tipo 1
+BsmtFinSF2      ==> Seminterrato finito tipo 2
 
 
-BsmtFinSF2 = "0";            // Seminterrato finito tipo 2
+BsmtUnfSF       ==> Seminterrato non finito
 
 
+TotalBsmtSF     ==> Totale area seminterrato
 
-BsmtUnfSF = "0";             // Seminterrato non finito
 
+_1stFlrSF       ==> Superficie primo piano
 
-TotalBsmtSF = ""1117"";        // Totale area seminterrato
 
+_2ndFlrSF       ==> Superficie secondo piano
 
-_1stFlrSF = "1132";          // Superficie primo piano
 
+LowQualFinSF    ==> Superficie finita bassa qualità
 
-_2ndFlrSF = "1320";          // Superficie secondo piano
 
+GrLivArea       ==> Superficie abitabile sopra terra
 
-LowQualFinSF = ""0"";          // Superficie finita bassa qualità
 
+BsmtFullBath    ==> Bagno completo nel seminterrato
 
-GrLivArea = ""2452"";          // Superficie abitabile sopra terra
 
+BsmtHalfBath    ==> Mezzo bagno nel seminterrato
 
-BsmtFullBath = ""1"";          // Bagno completo nel seminterrato
 
+FullBath        ==> Bagni completi
 
-BsmtHalfBath = "0";          // Mezzo bagno nel seminterrato
 
+HalfBath        ==> Mezzi bagni
 
-FullBath = "3";              // Bagni completi
 
+BedroomAbvGr    ==> Camere sopra il suolo
 
-HalfBath = "1";              // Mezzi bagni
 
+KitchenAbvGr    ==> Cucine sopra il suolo
 
-BedroomAbvGr = "4";          // Camere sopra il suolo
 
+TotRmsAbvGrd    ==> Totale stanze (esclusi bagni)
 
-KitchenAbvGr = "1";          // Cucine sopra il suolo
 
+Fireplaces      ==> Camini
 
-TotRmsAbvGrd = "9";          // Totale stanze (esclusi bagni)
 
+GarageYrBlt     ==> Anno costruzione garage
 
-Fireplaces = "1";            // Camini
 
+GarageCars      ==> Capienza garage (auto)
 
-GarageYrBlt = "2004";        // Anno costruzione garage
 
+GarageArea      ==> Superficie garage
 
-GarageCars = "3";            // Capienza garage (auto)
 
+WoodDeckSF      ==> Superficie terrazza in legno
 
-GarageArea = "691";          // Superficie garage
 
+OpenPorchSF     ==> Superficie veranda aperta
 
-WoodDeckSF = "113";          // Superficie terrazza in legno
 
+EnclosedPorch   ==> Superficie veranda chiusa
 
-OpenPorchSF = "32";          // Superficie veranda aperta
 
+_3SsnPorch      ==> Veranda tre stagioni
 
-EnclosedPorch = "0";         // Superficie veranda chiusa
 
+ScreenPorch     ==> Veranda con zanzariere
 
-_3SsnPorch = "0";            // Veranda tre stagioni
 
+PoolArea        ==> Superficie piscina
 
-ScreenPorch = "0";           // Veranda con zanzariere
 
+MiscVal         ==> Valore oggetti extra
 
-PoolArea = "0";              // Superficie piscina
 
+MoSold          ==> Mese di vendita
 
-MiscVal = "0";               // Valore oggetti extra
 
+YrSold          ==> Anno di vendita
 
-MoSold = "2";                // Mese di vendita
 
 
-YrSold = "2006";             // Anno di vendita
-
-
-
-Creatori : Bedin Marco , Brunello Andrea , Gitaric Ivan
-
-
-
-Link data Set : https://www.kaggle.com/code/gusthema/house-prices-prediction-using-tfdf/input?select=train.csv
+";
